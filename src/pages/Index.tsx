@@ -303,19 +303,7 @@ const Index = () => {
           </p>
           
           <Card className="p-8 bg-card border-border">
-            <div className="flex flex-col md:flex-row items-center justify-center gap-6 mb-8">
-              <a 
-                href="mailto:balajidumbu224@gmail.com"
-                className="flex items-center gap-3 text-lg hover:text-primary transition-colors"
-              >
-                <div className="p-3 rounded-full bg-primary/10">
-                  <Mail className="h-5 w-5 text-primary" />
-                </div>
-                <span>balajidumbu224@gmail.com</span>
-              </a>
-            </div>
-            
-            <div className="flex justify-center gap-4 pt-6 border-t border-border">
+            <div className="flex justify-center gap-4">
               <Button 
                 size="icon" 
                 variant="outline" 
